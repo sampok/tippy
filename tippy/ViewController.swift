@@ -14,10 +14,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var tipAndTotalView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tipAndTotalView.alpha = 0
+        billField.frame.origin.y = 130
+        tipAndTotalView.frame.origin.y = 140
+        
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,10 +43,22 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
+        if (bill) == 0 {
+            UIView.animateWithDuration(0.2, animations: {
+                self.tipAndTotalView.alpha = 0
+                self.billField.frame.origin.y = 100
+                self.tipAndTotalView.frame.origin.y = 140
+            })
+        } else {
+            UIView.animateWithDuration(0.2, animations: {
+                self.tipAndTotalView.alpha = 1
+                self.billField.frame.origin.y = 35
+                self.tipAndTotalView.frame.origin.y = 122
+            })
+        }
+        
     }
 
-    @IBAction func onTap(sender: AnyObject) {
-        view.endEditing(true)
-    }
 }
 

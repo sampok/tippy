@@ -14,6 +14,7 @@
 		B6056FCA1CDC2B0800511911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6056FC81CDC2B0800511911 /* LaunchScreen.storyboard */; };
 		B6056FD51CDC2B0800511911 /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6056FD41CDC2B0800511911 /* tippyTests.swift */; };
 		B6056FE01CDC2B0800511911 /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6056FDF1CDC2B0800511911 /* tippyUITests.swift */; };
+		B620F4141CE176BA009319E8 /* mock.png in Resources */ = {isa = PBXBuildFile; fileRef = B620F4131CE176BA009319E8 /* mock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6056FDB1CDC2B0800511911 /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6056FDF1CDC2B0800511911 /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		B6056FE11CDC2B0800511911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B620F4131CE176BA009319E8 /* mock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B6056FC61CDC2B0800511911 /* Assets.xcassets */,
 				B6056FC81CDC2B0800511911 /* LaunchScreen.storyboard */,
 				B6056FCB1CDC2B0800511911 /* Info.plist */,
+				B620F4131CE176BA009319E8 /* mock.png */,
 			);
 			path = tippy;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6056FCA1CDC2B0800511911 /* LaunchScreen.storyboard in Resources */,
+				B620F4141CE176BA009319E8 /* mock.png in Resources */,
 				B6056FC71CDC2B0800511911 /* Assets.xcassets in Resources */,
 				B6056FC51CDC2B0800511911 /* Main.storyboard in Resources */,
 			);
@@ -482,6 +486,7 @@
 				B6056FE61CDC2B0800511911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6056FE71CDC2B0800511911 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				B6056FE91CDC2B0800511911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6056FEA1CDC2B0800511911 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				B6056FEC1CDC2B0800511911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
