@@ -18,13 +18,14 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
+- [X] Custom layout
 - [X] Hide status bar
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-(tippy.gif)
+![Screen rec of tippy](tippy.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
